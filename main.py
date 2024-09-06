@@ -214,8 +214,6 @@ def get_message_type(msg: pyrogram.types.Message):
         pass
     try:
         msg.sticker.file_id
-	    try:
-        msg.sticker.file_id
         return "Sticker"
     except:
         pass
